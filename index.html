@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Images</h1>
+    <img src="Images/3.png" alt="A black friday sale post" title="A black friday sale post having a model in image" height="100px" width="100px">
+    <!--Block elements always appear in new line while inline elements appear within the same line without skipping a line
+    & in html table is created row wise-->
+    <h2>Figcaption Part</h2>
+    <figure>
+        <img src="Images/4.png" alt="Photo containing black lives matter slogan">
+        <figcaption>Black Lives Matter</figcaption>
+    </figure>
+    <h1>Tables</h1>
+    <h2>Table using tr(table row)</h2>
+    <table>
+        <tr>
+            <td>11</td>
+            <td>12</td>
+            <td>13</td>
+        </tr>
+        <tr>
+            <td>11A</td>
+            <td>12A</td>
+            <td>13A</td>
+        </tr>
+        <tr>
+            <td>11B</td>
+            <td>12B</td>
+            <td>13B</td>
+        </tr>
+        <br>
+    <h2>Table created using th(table heading)</h2>
+    <!--Scope just defines whether that heading is for row or for column-->    
+        <tr>
+           <th></th>
+           <th scope="col">Monday</th>
+           <th scope="col">Tuesday</th> 
+        </tr>
+        <tr>
+            <th scope="row">Pants Sold:</th>
+            <td>20</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <th scope="row">Shirts Sold:</th>
+            <td>25</td>
+            <td>35</td>
+        </tr>    
+    </table>
+    <h2>Table having colspan attribute</h2>
+    <table>
+        <tr>
+            <th></th>
+            <th>9AM</th>
+            <th>10AM</th>
+            <th>11AM</th>
+            <th>12AM</th>
+        </tr>
+        <tr>
+            <th>Monday</th>
+            <td colspan="2">Geography</td>
+            <td>Math</td>
+            <td>Art</td>
+        </tr>
+        <tr>
+            <th>Tuesday</th>
+            <td colspan="3">Gym</td>
+            <td>Home EC</td>
+        </tr>
+    </table>
+    <h2>Table having rowspan attribute</h2>
+    <table>
+    <tr>
+        <th></th>
+        <th>ABC</th>
+        <th>BBC</th>
+        <th>CNN</th>
+    </tr>
+    <tr>
+        <th>6pm-7pm</th>
+        <td rowspan="2">Movie</td>
+        <td>Comedy</td>
+        <td>News</td>
+    </tr>
+    <tr>
+        <th>7pm-8pm</th>
+        <td>Sports</td>
+        <td>Current Affairs</td>
+    </tr>
+    </table>
+    <h2>Long Tables</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Income</th>
+                <th>Expenditure</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>1st Jan</th>
+                <td>250</td>
+                <td>36</td>
+            </tr>
+            <tr>    
+                <th>2nd Jan</th>
+                <td>255</td>
+                <td>37</td>
+            </tr>
+            <tr>    
+                <th>3rd Jan</th>
+                <td>260</td>
+                <td>38</td>
+            </tr>
+            <tr>    
+                <th>4th Jan</th>
+                <td>265</td>
+                <td>39</td>
+            </tr>    
+        </tbody>
+        <tfoot>
+            <td> </td>
+            <td>1045</td>
+            <td>129</td>
+        </tfoot>
+    </table>
+</body>
+</html>
